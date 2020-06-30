@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    background-color: rgb(84, 84, 105);
+    font-family: 'Permanent Marker', cursive;
+}
+ul{
+    padding:5px;
+    width: 450px;
+    margin: auto;
+}
+#logo{
+    color: white;
+    font-size: 10px; 
+    padding-right: 25px; 
+}
+li{
+    padding: 8px;
+    display: inline-block;
+  
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+li a:hover{
+    padding: 4px;
+    background-color:gray;
+    border-radius: 9px;
+}
+body{
+    background: url("/static/da.jpg") no-repeat center center/cover;
+}
+#introSection{
+    height: 232px;
+    width: 100%;
+    text-align: center;
+    align-items: center;   
+      
+}
+#introSection h2{
+font-size: 40px;
+}
+#cont{
+  margin-top: 140px;
+  color: #7b8075;
+  font-family: 'Permanent Marker', cursive;
+  }
+
+
+#footerSection{
+    background-color: black;
+    color: white;
+    text-align: center;
+     padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+#footer>div{
+    padding: 23px;
+}
+#missionSection{
+    height: 272px;
+    
+}
+#missionSection h2{
+    color: #7b8075;
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.card{
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 15px;
+    display: inline-block;
+     margin-left: 20px;
+     margin-right: 20px;
+     width: 250px;
+     margin-top: 10px;
+     padding-left: 20px;
+     margin-bottom: 10px;
+     background-color: #c1d2b9c4;
+     height: 100%;
+    
+}
+#missionSection .box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 230px;
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+}
+.card-img img{
+    height: 120px;
+    
+    justify-content: center;
+}

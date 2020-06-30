@@ -1,0 +1,54 @@
+html
+  head
+    title This is Dance Website
+    block style
+     style
+      include ../static/style.css
+  body
+    nav#navbar
+     ul
+      div#logo
+       img(src="", alt="")
+       | HDA 
+       li
+        a(href="/") Home
+       li
+        a(href="/about") About
+       li
+        a(href="/class") Class Info
+       li
+        a(href="/contact") Contact Us
+    block content
+     section#introSection
+      div#cont
+       h2 Welcome to Harshit dance Acadmey
+       div.small Eat Sleep Dance Repeat
+     section#missionSection
+      h2 Our Mission
+      div.box
+       div.card
+        h3 Dance Perfection
+        div.card-box
+         div.card-img
+          img(src="../static/dance3.jpg",alt="")
+         div.card-content
+          p Perfection in any dance form 
+       div.card
+        h3 Certified Teacher
+        div.card-box
+         div.card-img
+          img(src="../static/dance2.png",alt="")
+         div.card-content
+          p Learn dance from the best teachers 
+
+       div.card
+        h3 Variety of Dance Styles
+        div.card-box
+         div.card-img
+          img(src="../static/dance1.jpg",alt="")
+         div.card-content
+          p You can choose from variety of dance forms in which you like to dance
+     footer#footerSection
+      div Copyright &copy; 2020 Harshit Dance Acadmey  
+            
+       

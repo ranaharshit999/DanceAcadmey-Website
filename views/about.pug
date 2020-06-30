@@ -1,0 +1,39 @@
+extends base.pug
+block script
+ script(src="../app.js")
+block style
+ style 
+  include ../static/style.css
+  include ../static/about.css
+  block content 
+   section#missionSection
+    h2 Workshops
+     div.box
+      div.card
+       h3 B-Boying
+       div.card-box
+        div.card-img
+         img(src="../static/b-boying.jpg",alt="")
+        div.card-content
+         p Timing: 4pm-5pm At Mumbai 
+         
+      div.card
+       h3 Ballet
+       div.card-box
+        div.card-img
+          img(src="../static/ballet.jpg",alt="")
+        div.card-content
+         p Timing 5pm-6pm At Delhi
+        
+      div.card
+       h3 Contemporary
+       div.card-box
+        div.card-img
+        img(src="../static/tango.jpg",alt="")
+        div.card-content
+         p Timing:6pm-7pm At Banglore
+   section#aboutSection 
+    h2 Our Goal     
+    p The Harshit Dance Acadmey was established in 2018 to give proper training to students who are willing to achieve their future in the field of dance
+
+   
